@@ -64,3 +64,6 @@ You should see your app's icon appear 😃
 ## Publish to Chrome Web Store
 
 When you're ready to share you extension with the world, follow the Chrome Developer Docs [here](https://developer.chrome.com/webstore/get_started_simple#step6).
+
+### Helpful  Resources
+- [Automate your Chrome Extension deployment in minutes](https://dev.to/gokatz/automate-your-chrome-extension-deployment-in-minutes-48gb)!
