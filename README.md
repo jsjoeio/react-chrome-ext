@@ -61,6 +61,8 @@ If you'd like to test your extension locally before pushing to the Chrome Web St
 
 You should see your app's icon appear 😃
 
+![](https://res.cloudinary.com/dobfxs62e/image/upload/v1543765180/chrome-ext-demo_jlygdc.gif)
+
 ## Publish to Chrome Web Store
 
 When you're ready to share you extension with the world, follow the Chrome Developer Docs [here](https://developer.chrome.com/webstore/get_started_simple#step6).
