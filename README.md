@@ -1,4 +1,10 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# react-chrome-ext
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) but 2 key differences have been made, specific for Chrome Extensions:
+
+1. The `manifest.json` in the `public` directory has been modified to match that of a Chrome Extension. You can read more here: [manifest file format](https://developer.chrome.com/extensions/manifest)
+
+2. Per Chrome's [Content Security Policy](https://developer.chrome.com/extensions/contentSecurityPolicy#JSExecution), inline JavaScript will not be executed. Therefore, the `build` script has been modified in the `package.json` to include the variable `INLINE_RUNTIME_CHUNK=false` as per suggested in [create-react-app's advanced configuration doc](https://facebook.github.io/create-react-app/docs/advanced-configuration).
 
 ## Available Scripts
 
@@ -42,3 +48,19 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+## Testing Chrome Extension Locally
+
+If you'd like to test your extension locally before pushing to the Chrome Web Store, follow these steps:
+
+1. `npm run build`
+2. Open Chrome and navigate to [chrome://extensions/](chrome://extensions/)
+3. In the top right, toggle 'Developer Mode' on
+4. On the left side, click 'Load unpacked'
+5. Select the `build` directory in your project and click upload
+
+You should see your app's icon appear 😃
+
+## Publish to Chrome Web Store
+
+When you're ready to share you extension with the world, follow the Chrome Developer Docs [here](https://developer.chrome.com/webstore/get_started_simple#step6).
