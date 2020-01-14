@@ -61,7 +61,7 @@ If you'd like to test your extension locally before pushing to the Chrome Web St
 
 You should see your app's icon appear 😃
 
-![Example demo video](https://res.cloudinary.com/jsjoeio/video/upload/v1543765905/chrome-ext-demo.mp4)
+[Example demo video](https://res.cloudinary.com/jsjoeio/video/upload/v1543765905/chrome-ext-demo.mp4)
 
 ## Publish to Chrome Web Store
 
